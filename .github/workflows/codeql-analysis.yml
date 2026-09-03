@@ -54,5 +54,5 @@ jobs:
     - run: npm run build
     - run: rm -rf dist # We want code scanning to analyze lib instead (individual .js files)
 
-    - name: Perform CodeQL Analysis
+    - name: Perform CodeQL Analysis 
       uses: github/codeql-action/analyze@v4
